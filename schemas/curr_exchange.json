@@ -1,0 +1,14 @@
+[
+  {
+    "name": "country",
+    "type": "STRING"
+  },
+  {
+    "name": "rate_date",
+    "type": "DATE"
+  },
+  {
+    "name": "ex_loc_to_eur",
+    "type": "NUMERIC"
+  }
+]

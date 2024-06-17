@@ -1,0 +1,14 @@
+[
+  {
+    "name": "product_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "product_name",
+    "type": "STRING"
+  },
+  {
+    "name": "is_own_brand",
+    "type": "BOOLEAN"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "country",
+    "type": "STRING"
+  },
+  {
+    "name": "sales_date",
+    "type": "DATE"
+  },
+  {
+    "name": "outlet_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "product_category",
+    "type": "INTEGER"
+  },
+  {
+    "name": "product_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "brand",
+    "type": "STRING"
+  },
+  {
+    "name": "sales_qty",
+    "type": "INTEGER"
+  },
+  {
+    "name": "sales_value",
+    "type": "NUMERIC"
+  }
+]

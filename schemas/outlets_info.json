@@ -1,0 +1,26 @@
+[
+  {
+    "name": "outlet_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "outlet_name",
+    "type": "STRING"
+  },
+  {
+    "name": "country",
+    "type": "STRING"
+  },
+  {
+    "name": "region",
+    "type": "STRING"
+  },
+  {
+    "name": "address",
+    "type": "STRING"
+  },
+  {
+    "name": "zipcode",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "country",
+    "type": "STRING"
+  },
+  {
+    "name": "sales_date",
+    "type": "DATE"
+  },
+  {
+    "name": "outlet_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "outlet_name",
+    "type": "STRING"
+  },
+  {
+    "name": "region",
+    "type": "STRING"
+  },
+  {
+    "name": "sales_value",
+    "type": "NUMERIC"
+  },
+  {
+    "name": "sales_value_eur",
+    "type": "NUMERIC"
+  }
+]

@@ -25,3 +25,8 @@ variable "composer_env_name" {
   type    = string
   default = "elt-composer-env"
 }
+
+variable "dataset_id" {
+  type    = string
+  default = "electronics-sales"
+}
