@@ -92,9 +92,9 @@ module "bigquery" {
   source  = "terraform-google-modules/bigquery/google"
   version = "~> 7.0"
 
-  project_id   = var.project_id
-  dataset_id   = var.dataset_id
-  location     = var.bq_region
+  project_id = var.project_id
+  dataset_id = var.dataset_id
+  location   = var.bq_region
 
 
   tables = [
@@ -126,8 +126,8 @@ module "bigquery" {
       table_id = "output_table"
       schema   = file("schemas/output_table.json")
       time_partitioning = {
-        type              = "DAY"
-        field             = "sales_date"
+        type                     = "DAY"
+        field                    = "sales_date"
         require_partition_filter = true
         expiration_ms            = null
       }
@@ -149,8 +149,8 @@ module "bigquery" {
       table_id = "sales_daily"
       schema   = file("schemas/sales_daily.json")
       time_partitioning = {
-        type              = "DAY"
-        field             = "sales_date"
+        type                     = "DAY"
+        field                    = "sales_date"
         require_partition_filter = true
         expiration_ms            = null
       }
