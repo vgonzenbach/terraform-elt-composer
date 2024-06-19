@@ -28,5 +28,10 @@ variable "composer_env_name" {
 
 variable "dataset_id" {
   type    = string
-  default = "electronics-sales"
+  default = "retail_sales"
+}
+
+variable "bq_region" {
+  type    = string
+  default = "EU"
 }

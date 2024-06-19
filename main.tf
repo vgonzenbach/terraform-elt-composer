@@ -19,6 +19,7 @@ module "activate_google_apis" {
   disable_services_on_destroy = false
 
   activate_apis = [
+    "serviceusage.googleapis.com",
     "servicenetworking.googleapis.com",
     "compute.googleapis.com",
     "composer.googleapis.com",
@@ -92,9 +93,8 @@ module "bigquery" {
   version = "~> 7.0"
 
   project_id   = var.project_id
-  dataset_id   = "electronics"
-  dataset_name = "electronics"
-  location     = "US"
+  dataset_id   = var.dataset_id
+  location     = var.bq_region
 
 
   tables = [
