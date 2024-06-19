@@ -4,7 +4,7 @@
 PROJECT_ID=$(gcloud config list --format 'value(core.project)')
 echo "project_id = \"""$PROJECT_ID""\"" > terraform.auto.tfvars
 
-terraform init
+terraform init -backend-config=backend.tfvars
 
 if [ "$1" = "plan" ]; then
     terraform plan 

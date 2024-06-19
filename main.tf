@@ -5,6 +5,11 @@ terraform {
       version = "5.33"
     }
   }
+
+  backend "gcs" {
+    bucket = "<YOUR-BUCKET>" # Override using -backend-config flag
+    prefix = "terraform/state/elt"
+  }
 }
 
 provider "google" {
